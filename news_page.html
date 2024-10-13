@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./сss/news_page.css" />
+		<link rel="icon" href="img/кокос.png" type="image/x-icon" /> <!-- Добавляем фавиконку -->
+		<title>Новости</title>
+	</head>
+	<body>
+		<header class="header_page">
+			<div class="header_container">
+				<a class="logo_link" href="main_page.html">
+					<img class="logo" src="./svg/logo.svg" alt="логотип КОКОС GROUP" />
+
+					<h1 class="logo_title">Кокос group</h1>
+				</a>
+
+				<div class="btn_header_container">
+					<a class="company_btn_link" href="https://kokocgroup.ru/" target="_blank">
+						<button class="company_btn">
+							<img src="./svg/Rectangle_company.svg" width="7" height="7" />
+							<span class="company_btn_text">K</span>
+							<img src="./svg/Rectangle_company.svg" width="7" height="7" />
+						</button>
+					</a>
+
+					<button class="burger_btn">
+						<img class="burger" src="./svg/burger.svg" alt="burger menu" />
+					</button>
+				</div>
+			</div>
+			<ul class="header_navigation_list">
+				<li class="news_section_navigation_item_all">
+					<a class="news_section_navigation_link_all" href="#">Все</a>
+				</li>
+				<li class="header_navigation_item">
+					<a class="header_navigation_link" href="#">Новости</a>
+				</li>
+				<li class="header_navigation_item">
+					<a class="header_navigation_link" href="#">Клуб</a>
+				</li>
+				<li class="header_navigation_item">
+					<a class="header_navigation_link" href="#">F-лига</a>
+				</li>
+				<li class="header_navigation_item">
+					<a class="header_navigation_link" href="#">Лига Чемпионов</a>
+				</li>
+			</ul>
+			<input class="search_box_header" type="text" />
+		</header>
+		<main>
+			<section class="news_section">
+				<h2 class="section_title">Новости</h2>
+				<div class="bg_img_news_section"></div>
+				<ul class="news_section_list">
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new1.png" />
+							<div class="description_container">
+								<p class="description_text">
+									Незаметно пролетел первый месяц осени.
+								</p>
+								<h3 class="description_title">
+									Давайте выберем лучшего игрока в составе нашей команды в
+									сентябре!
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new2.png" />
+							<div class="description_container">
+								<p class="description_text">Лучший трансфер!</p>
+								<h3 class="description_title">
+									Вероятно, уже завтра мы сможем увидеть Антона в матче против
+									ЛФК «Тройка».
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new3.png" />
+							<div class="description_container">
+								<p class="description_text">А какой лук вам ближе?</p>
+								<h3 class="description_title">
+									Комментаторы регулярно подчёркивают стиль Михаила Пименова,
+									руководящего командой на бровке.
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new4.png" />
+							<div class="description_container">
+								<p class="description_text">
+									Спасибо за поддержку! Вы — лучшие!
+								</p>
+								<h3 class="description_title">
+									Отличная игра. И с отличным настроением мы покидаем
+									«Вернадку», где ровно через неделю встретимся с «Баварией».
+								</h3>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<a class="news_section_btn_link" href="https://t.me/fckokocgroup">
+					<button class="news_section_btn" type="button">
+						Смотреть так же
+					</button>
+				</a>
+			</section>
+
+			<form class="newsletter_section" method="POST" action="send_email.php">
+				<h2 class="section_title">Свежие новости!</h2>
+				<p class="newsletter_section_text">Будь первым в курсе всех событий</p>
+				<label>
+					<input class="newsletter_email_box" type="email" placeholder="Введите ваш Email..." name="email" required />
+					<button class="newsletter_section_btn" type="submit">Подписаться</button>
+				</label>
+			</form>
+		</main>
+		<footer class="footer_page">
+			<div class="logo_footer_container">
+				<img class="logo_footer" src="./svg/logo.svg" />
+				<h2 class="logo_title_footer">Кокос group</h2>
+			</div>
+			<ul class="contacts_list">
+				<li class="contact_item">
+					<a class="contact_link" href="https://t.me/fckokocgroup">
+						<img class="contact_icon" src="./svg/telegram.svg" />
+						<span class="visually-hidden">Telegram</span>
+					</a>
+				</li>
+				<li class="contact_item">
+					<a class="contact_link" href="https://vk.com/kokocgroup_ru">
+						<img class="contact_icon" src="./svg/akar-icons_vk-fill.svg" />
+						<span class="visually-hidden">VK</span>
+					</a>
+				</li>
+				<li class="contact_item">
+					<a class="contact_link" href="https://www.youtube.com/@TVKokoc">
+						<img class="contact_icon" src="./svg/youtube.svg" />
+						<span class="visually-hidden">Youtube</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

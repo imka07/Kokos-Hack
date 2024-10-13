@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./сss/main_page.css" />
+		<link rel="icon" href="img/кокос.png" type="image/x-icon" /> <!-- Добавляем фавиконку -->
+		<title>КОКОС GROUP</title>
+	</head>
+	<body>
+		<header class="header_page">
+			<div class="header_container">
+				<a class="logo_link" href="main_page.html">
+					<img class="logo" src="./svg/logo.svg" alt="логотип КОКОС GROUP">
+					<h1 class="logo_title">Кокос Group</h1>
+				</a>
+				<div class="btn_header_container">
+					<a class="company_btn_link" href="https://kokocgroup.ru/" target="_blank">
+						<button class="company_btn">
+							<img src="./svg/Rectangle_company.svg" width="7" height="7" alt="icon">
+							<span class="company_btn_text">K</span>
+							<img src="./svg/Rectangle_company.svg" width="7" height="7" alt="icon">
+						</button>
+					</a>
+					<button class="burger_btn" type="button">
+						<img class="burger" src="./svg/burger.svg" alt="Меню">
+					</button>
+				</div>
+				
+			</div>
+	
+			<input class="search_box_header" type="text" placeholder="">
+			<ul class="sections_list">
+				<li class="section_item">
+					<a class="section_link" href="news_page.html">
+						<img class="section_icon" src="./svg/news.svg" alt="Новости" width="92" height="82.5">
+						<span class="section_title">Новости</span>
+					</a>
+				</li>
+				<li class="section_item">
+					<a class="section_link" href="matchs_page.html">
+						<img class="section_icon" src="./svg/matches.svg" alt="Матчи" width="100" height="80">
+						<span class="section_title">Матчи</span>
+					</a>
+				</li>
+				<li class="section_item">
+					<a class="section_link" href="shop_page.html">
+						<img class="section_icon" src="./svg/shop.svg" alt="Магазин" width="93.75" height="90">
+						<span class="section_title">Магазин</span>
+					</a>
+				</li>
+				<li class="section_item">
+					<a class="section_link" href="#">
+						<img class="section_icon" src="./svg/museum.svg" alt="Музей" width="92.5" height="92.36">
+						<span class="section_title">Музей</span>
+					</a>
+				</li>
+			</ul>
+		</header>
+		<main class="main_page">
+			<div class="news_container">
+				<article class="news_article first">
+					<a class="news_link" href="#">
+						<p class="news_text">Кокос - сила!</p>
+						<h2 class="news_title">
+							+1 причина посетить «Вернадку» на этих выходных!
+						</h2>
+					</a>
+				</article>
+				<article class="news_article second">
+					<a class="news_link" href="#">
+						<p class="news_text">Кокос - сила!</p>
+						<h2 class="news_title">
+							Не успели соскучиться по Константину Сутормину?
+						</h2>
+					</a>
+				</article>
+				<article class="news_article third">
+					<a class="news_link" href="#">
+						<p class="news_text">Кокос - сила!</p>
+						<h2 class="news_title">
+							Разгромная победа над «Альпикой» осталась обделена!
+						</h2>
+					</a>
+				</article>
+			</div>
+
+			<section class="matches_section">
+				<div class="past_matches_container">
+					<a class="match_link" href="#">
+						<article class="past_match">
+							<div class="teams">
+								<img
+									class="logo_team"
+									src="./img/кокос.png"
+									alt="Кокос group"
+								/>
+								<img
+									class="logo_team"
+									src="./img/портер.png"
+									alt="Кокос group"
+								/>
+							</div>
+							<p class="match_score">4 : 2</p>
+						</article>
+					</a>
+				</div>
+
+				<a class="match_link" href="#">
+					<div class="next_match">
+						<div class="teams_next_match">
+							<img
+								class="logo_team_next_match"
+								src="./img/кокос.png"
+								alt="Кокос group"
+							/>
+							<img
+								class="logo_team_next_match"
+								src="./img/городок.png"
+								alt="Кокос group"
+							/>
+						</div>
+						<time class="date_next_match" datetime="2024-06-01T00:00"
+							>01/06/24  00:00 GMT+3</time
+						>
+					</div>
+				</a>
+
+				<div class="upcoming_matches_container">
+					<a class="match_link" href="#">
+						<article class="upcoming_match">
+							<div class="teams">
+								<img
+									class="logo_team"
+									src="./img/кокос.png"
+									alt="Кокос group"
+								/>
+								<img
+									class="logo_team"
+									src="./img/bayern.png"
+									alt="Кокос group"
+								/>
+							</div>
+							<time class="time_upcoming_match" datetime="06-01-24"
+								>Mun 01/06/24</time
+							>
+						</article>
+					</a>
+				</div>
+			</section>
+
+			<section class="news_section">
+				<h2 class="section_title">Новости</h2>
+				<ul class="news_section_navigation_list">
+					<li class="news_section_navigation_item_all">
+						<a class="news_section_navigation_link_all" href="#">Все</a>
+					</li>
+					<li class="news_section_navigation_item">
+						<a class="news_section_navigation_link" href="news_page.html"
+							>Новости</a
+						>
+					</li>
+					<li class="news_section_navigation_item">
+						<a class="news_section_navigation_link" href="#">Клуб</a>
+					</li>
+					<li class="news_section_navigation_item">
+						<a class="news_section_navigation_link" href="#">F-лига</a>
+					</li>
+					<li class="news_section_navigation_item">
+						<a class="news_section_navigation_link" href="#">Лига Чемпионов</a>
+					</li>
+				</ul>
+				<ul class="news_section_list">
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new1.png" />
+							<div class="description_container">
+								<p class="description_text">
+									Незаметно пролетел первый месяц осени.
+								</p>
+								<h3 class="description_title">
+									Давайте выберем лучшего игрока в составе нашей команды в
+									сентябре!
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new2.png" />
+							<div class="description_container">
+								<p class="description_text">Лучший трансфер!</p>
+								<h3 class="description_title">
+									Вероятно, уже завтра мы сможем увидеть Антона в матче против
+									ЛФК «Тройка».
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new3.png" />
+							<div class="description_container">
+								<p class="description_text">А какой лук вам ближе?</p>
+								<h3 class="description_title">
+									Комментаторы регулярно подчёркивают стиль Михаила Пименова,
+									руководящего командой на бровке.
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new4.png" />
+							<div class="description_container">
+								<p class="description_text">
+									Спасибо за поддержку! Вы — лучшие!
+								</p>
+								<h3 class="description_title">
+									Отличная игра. И с отличным настроением мы покидаем
+									«Вернадку», где ровно через неделю встретимся с «Баварией».
+								</h3>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<a class="news_section_btn_link" href="news_page.html">
+					<button class="news_section_btn" type="button">
+						Смотреть так же
+					</button>
+				</a>
+			</section>
+
+			<section class="tv_section">
+				<div class="navigation_tv_section">
+					<h2 class="section_title">Кокос TV</h2>
+					<a class="show_more_link_tv_section" href="https://vk.com/video/@uzao8/all">Показать больше</a>
+				</div>
+				<ul class="video_list">
+					<li class="video_item">
+						<a class="video_link" href="#">
+							<img
+								class="video_img"
+								src="./img/photo_2024-10-10 04.10.43 1.png"
+							/>
+						</a>
+					</li>
+				</ul>
+				<ul class="index_page_tv_section">
+					<li class="index_tv_section"></li>
+					<li class="index_tv_section"></li>
+					<li class="index_tv_section"></li>
+					<li class="index_tv_section"></li>
+					<li class="index_tv_section"></li>
+				</ul>
+			</section>
+
+			<a class="shop_section_link" href="shop_page.html">
+				<section class="shop_section">
+					<img class="shop_section_img" src="./svg/logo.svg" alt="logo" />
+					<div class="shop_container">
+						<h4 class="shop_container_title">Кокос group</h4>
+						<p class="shop_container_text">Онлайн магазин</p>
+					</div>
+				</section>
+			</a>
+		</main>
+		<footer class="footer_page">
+			<div class="logo_footer_container">
+				<img class="logo_footer" src="./svg/logo.svg" />
+				<h2 class="logo_title_footer">Кокос group</h2>
+			</div>
+			<ul class="contacts_list">
+				<li class="contact_item">
+					<a class="contact_link" href="https://t.me/fckokocgroup">
+						<img class="contact_icon" src="./svg/telegram.svg" />
+						<span class="visually-hidden">Telegram</span>
+					</a>
+				</li>
+				<li class="contact_item">
+					<a class="contact_link" href="https://vk.com/kokocgroup_ru">
+						<img class="contact_icon" src="./svg/akar-icons_vk-fill.svg" />
+						<span class="visually-hidden">VK</span>
+					</a>
+				</li>
+				<li class="contact_item">
+					<a class="contact_link" href="https://www.youtube.com/@TVKokoc">
+						<img class="contact_icon" src="./svg/youtube.svg" />
+						<span class="visually-hidden">Youtube</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./сss/live_TV.css" />
+		<link rel="icon" href="img/кокос.png" type="image/x-icon" /> <!-- Добавляем фавиконку -->
+		<title>Live TV</title>
+	</head>
+	<body>
+		<header class="header_page">
+			<div class="header_container">
+				<a class="logo_link" href="main_page.html">
+					<img class="logo" src="./svg/logo.svg" alt="логотип КОКОС GROUP" />
+
+					<h1 class="logo_title">Кокос group</h1>
+				</a>
+
+				<div class="btn_header_container">
+					<a class="company_btn_link" href="#">
+						<button class="company_btn">
+							<img src="./svg/Rectangle_company.svg" width="7" height="7" />
+							<span class="company_btn_text">K</span>
+							<img src="./svg/Rectangle_company.svg" width="7" height="7" />
+						</button>
+					</a>
+
+					<button class="burger_btn" type="button">
+						<img class="burger" src="./svg/burger.svg" alt="burger menu" />
+					</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="match_section">
+				<div class="match_bg_container"></div>
+				<div class="match">
+					<div class="match-info">
+						<span class="match_text">Sat | 05/10/24 | 15:50 МСК</span>
+						<span class="match_text">Высший дивизион ЮЗЛ-2024</span>
+					</div>
+					<div class="teams">
+						<div class="team_container">
+							<span class="match_team">Кокос Group</span>
+							<img src="./img/кокос.png" />
+						</div>
+						<span class="match_score">4:2</span>
+						<div class="team_container">
+							<img src="./img/портер.png" />
+							<span class="match_team">АФК Портер</span>
+						</div>
+					</div>
+					<span class="time">(19:10)</span>
+				</div>
+			</section>
+
+			<section class="match_info_section">
+				<ul class="match_info_nav">
+					<li class="match_info_item">
+						<button class="match_info_item_btn">Голы</button>
+					</li>
+					<li class="match_info_item">
+						<button class="match_info_item_btn">Карточки</button>
+					</li>
+					<li class="match_info_item">
+						<button class="match_info_item_btn">Замены</button>
+					</li>
+				</ul>
+				<div class="goal_table_container">
+					<ul class="goal_table_list">
+						<li class="goal_table_item2">Минченков Александр 2'</li>
+						<li class="goal_table_item">Леденёв Роман 8'</li>
+						<li class="goal_table_item">Власов Виктор 17'</li>
+						<li class="goal_table_item">Сутормин Константин 43'</li>
+						<li class="goal_table_item">Погребняк Кирилл45'</li>
+						<li class="goal_table_item2">Минченков Александр 58'</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="news_section">
+				<h2 class="section_title">Новости</h2>
+				<ul class="news_section_list">
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new1.png" />
+							<div class="description_container">
+								<p class="description_text">
+									Незаметно пролетел первый месяц осени.
+								</p>
+								<h3 class="description_title">
+									Давайте выберем лучшего игрока в составе нашей команды в
+									сентябре!
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new2.png" />
+							<div class="description_container">
+								<p class="description_text">Лучший трансфер!</p>
+								<h3 class="description_title">
+									Вероятно, уже завтра мы сможем увидеть Антона в матче против
+									ЛФК «Тройка».
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new3.png" />
+							<div class="description_container">
+								<p class="description_text">А какой лук вам ближе?</p>
+								<h3 class="description_title">
+									Комментаторы регулярно подчёркивают стиль Михаила Пименова,
+									руководящего командой на бровке.
+								</h3>
+							</div>
+						</a>
+					</li>
+					<li class="news_section_item">
+						<a class="news_section_link" href="#">
+							<img class="news_section_img" src="./img/new4.png" />
+							<div class="description_container">
+								<p class="description_text">
+									Спасибо за поддержку! Вы — лучшие!
+								</p>
+								<h3 class="description_title">
+									Отличная игра. И с отличным настроением мы покидаем
+									«Вернадку», где ровно через неделю встретимся с «Баварией».
+								</h3>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<button class="news_section_btn" type="button">Смотреть так же</button>
+			</section>
+
+			<form class="motto_section">
+				<h2 class="section_title">Свой девиз!</h2>
+				<p class="motto_section_text">Предложи свою кричалку и выиграй мерч</p>
+				<label>
+					<input
+						class="motto_email_box"
+						type="email"
+						placeholder="Введите ваш девиз..."
+					/>
+					<button class="motto_section_btn" type="button">Отправить</button>
+				</label>
+			</form>
+		</main>
+		<footer class="footer_page">
+			<div class="logo_footer_container">
+				<img class="logo_footer" src="./svg/logo.svg" />
+				<h2 class="logo_title_footer">Кокос group</h2>
+			</div>
+			<ul class="contacts_list">
+				<li class="contact_item">
+					<a class="contact_link" href="https://t.me/fckokocgroup">
+						<img class="contact_icon" src="./svg/telegram.svg" />
+						<span class="visually-hidden">Telegram</span>
+					</a>
+				</li>
+				<li class="contact_item">
+					<a class="contact_link" href="https://vk.com/kokocgroup_ru">
+						<img class="contact_icon" src="./svg/akar-icons_vk-fill.svg" />
+						<span class="visually-hidden">VK</span>
+					</a>
+				</li>
+				<li class="contact_item">
+					<a class="contact_link" href="https://www.youtube.com/@TVKokoc">
+						<img class="contact_icon" src="./svg/youtube.svg" />
+						<span class="visually-hidden">Youtube</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

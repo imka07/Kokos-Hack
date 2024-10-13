@@ -1,0 +1,406 @@
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/8954f2b56c8e8ad57b0763ea6ee0aa29.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/8954f2b56c8e8ad57b0763ea6ee0aa29.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/8954f2b56c8e8ad57b0763ea6ee0aa29.ttf')
+			format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.ttf')
+			format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/fb1bea81a02964993fa20fa8c7c13ea4.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/fb1bea81a02964993fa20fa8c7c13ea4.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/fb1bea81a02964993fa20fa8c7c13ea4.ttf')
+			format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/bada443c83e47661b69f8a08a19e0af3.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/bada443c83e47661b69f8a08a19e0af3.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/bada443c83e47661b69f8a08a19e0af3.ttf')
+			format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/2f1f3feea7d6b09afda02d8a4b54dea1.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/2f1f3feea7d6b09afda02d8a4b54dea1.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/2f1f3feea7d6b09afda02d8a4b54dea1.ttf')
+			format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+* {
+	font-family: 'Museo Sans Cyrl';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000e29;
+	max-width: 1920px;
+}
+
+.header_page {
+	padding: 25px 32px 30px;
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(#dc052d, 60%, #a11e36);
+}
+
+.header_container {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.logo_link {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.logo {
+	width: 72px;
+	height: 72px;
+}
+
+.logo_title {
+	color: #fff;
+	font-size: 42px;
+	line-height: 42px;
+	font-weight: 900;
+	letter-spacing: 3px;
+}
+
+.btn_header_container {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+.company_btn_link {
+	text-decoration: none;
+}
+
+.company_btn {
+	display: flex;
+	gap: 3px;
+	align-items: center;
+	justify-content: center;
+	height: 43px;
+	width: 81px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+}
+
+.company_btn_text {
+	font-size: 32px;
+	color: #dc052d;
+	font-weight: 700;
+}
+
+.burger_btn {
+	width: 37px;
+	height: 25px;
+	background: none;
+	object-position: center;
+	border: none;
+}
+
+.header_navigation_list {
+	list-style-type: none;
+	display: flex;
+	gap: 30px;
+	overflow-x: scroll;
+	scrollbar-width: none;
+	margin-bottom: 30px;
+}
+
+.header_navigation_item {
+	height: 42px;
+	background: #89162b;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_navigation_link {
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff;
+	padding: 0 23px;
+	white-space: nowrap;
+}
+
+.search_box_header {
+    width: 100%;
+    height: 50px;
+
+
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(../svg/search.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 20px center;
+    padding-left: 60px; /* Отступ для текста, чтобы не пересекался с иконкой */
+    font-size: 16px; /* Увеличен размер шрифта */
+    color: white; /* Цвет текста */
+    outline: none; /* Убирает стандартную синюю обводку при фокусе */
+}
+
+.search_box_header::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Цвет для placeholder */
+}
+
+
+.news_section {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.section_title {
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	padding: 20px 32px 50px;
+}
+
+.bg_img_news_section {
+	width: 100%;
+	height: 550px;
+	margin-bottom: 60px;
+	background-image: url(../img/bg_news.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 15px;
+}
+
+
+.news_section_navigation_list {
+	list-style-type: none;
+	display: flex;
+	gap: 30px;
+	overflow-x: scroll;
+	scrollbar-width: none;
+	margin: 20px;
+}
+
+.news_section_navigation_item {
+	height: 42px;
+	background: #121f38;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.news_section_navigation_item_all{
+	height: 42px;
+	background: #ffffff;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.news_section_navigation_link {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	padding: 0 23px;
+	white-space: nowrap;
+}
+.news_section_navigation_link_all{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ed2626;
+	padding: 0 23px;
+	white-space: nowrap;
+}
+
+.news_section_list {
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.news_section_item {
+	background-color: #121f38;
+	width: 100%;
+	min-height: 212px;
+}
+
+.news_section_link {
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+}
+
+.news_section_img {
+	object-fit: cover;
+}
+
+.description_container {
+	padding: 60px 22px 20px;
+}
+
+.description_text {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.description_title {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.news_section_btn {
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	background-color: #121f38;
+	height: 64px;
+	width: 225px;
+	margin: 30px 0 0 32px;
+}
+
+.newsletter_section {
+	padding: 30px 25px 40px;
+	margin: 60px 32px;
+	background-color: #121f38;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.newsletter_section_text {
+	font-size: 21px;
+	font-weight: 500;
+	color: rgb(255, 255, 255, 0.7);
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.newsletter_email_box {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #2c3953;
+    border: none;
+    font-size: 18px; /* Увеличиваем размер шрифта */
+    font-weight: 500;
+    color: #fff; /* Белый цвет текста */
+}
+
+
+.newsletter_email_box::placeholder {
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(255, 255, 255, 0.7);
+}
+
+.newsletter_section_btn {
+	margin-top: 20px;
+	width: 100%;
+	height: 64px;
+	border-radius: 15px;
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #c80e31;
+	border: none;
+}
+
+.footer_page {
+	width: 100%;
+	padding: 45px 32px;
+	text-align: center;
+	background: linear-gradient(35deg, #dc052d, 85%, #a11e36);
+}
+
+.logo_footer {
+	width: 130px;
+	margin-bottom: 12px;
+}
+
+.logo_title_footer {
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.contacts_list {
+	margin-top: 15px;
+	list-style-type: none;
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact_icon {
+	height: 30px;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
