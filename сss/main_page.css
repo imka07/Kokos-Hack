@@ -94,42 +94,39 @@ body {
 }
 
 .logo_link {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
 }
 
 .logo {
-    width: 72px;
+	width: 72px;
 	padding-bottom: 10px;
-    height: 72px;
+	height: 72px;
 }
 
 .logo_title {
-    font-size: 35px;
-    font-weight: 900;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	text-transform: uppercase;
 	padding-left: 20px;
-    color: #fff;
-	
+	color: #fff;
 }
 
 .btn_header_container {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-	
+	display: flex;
+	gap: 20px;
+	align-items: center;
 }
 
 .company_btn {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-	
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
 }
 
 .company_btn {
@@ -142,7 +139,6 @@ body {
 	border-radius: 5px;
 	border: none;
 	background-color: #fff;
-	
 }
 
 .company_btn_text {
@@ -152,43 +148,45 @@ body {
 }
 
 .company_btn_link {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-
-.burger_btn {
-    background: none;
-    border: none;
+.login_link {
+	text-decoration: none;
 }
 
-.burger {
-    width: 24px;
-    height: 24px;
+.login_btn {
+	height: 43px;
+	width: 100px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+	font-size: 20px;
+	color: #dc052d;
+	font-weight: 500;
 }
 
 .search_box_header {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    border-radius: 50px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-image: url(../svg/search.svg);
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: 20px center;
-    padding-left: 60px; /* Отступ для текста, чтобы не пересекался с иконкой */
-    font-size: 16px; /* Увеличен размер шрифта */
-    color: white; /* Цвет текста */
-    outline: none; /* Убирает стандартную синюю обводку при фокусе */
+	width: 100%;
+	height: 50px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	border-radius: 50px;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.2);
+	background-image: url(../svg/search.svg);
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 20px center;
+	padding-left: 60px; /* Отступ для текста, чтобы не пересекался с иконкой */
+	font-size: 16px; /* Увеличен размер шрифта */
+	color: white; /* Цвет текста */
+	outline: none; /* Убирает стандартную синюю обводку при фокусе */
 }
 
 .search_box_header::placeholder {
-    color: rgba(255, 255, 255, 0.6); /* Цвет для placeholder */
+	color: rgba(255, 255, 255, 0.6); /* Цвет для placeholder */
 }
-
-
 
 .sections_list {
 	list-style-type: none;
@@ -214,15 +212,62 @@ body {
 	vertical-align: bottom;
 }
 
-.sections_list .section_item .section_title {
-    font-size: 25px;
+#modal-toggle {
+	display: none;
+}
+
+.open-modal-btn {
+	list-style-type: none;
+}
+
+.modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 538px;
+	padding: 20px;
+	background: #131313;
+	background-image: url(../img/gradient.png);
+	background-repeat: no-repeat;
+	background-position: -150px;
+	box-shadow: 0 0 10px rgba(red, 0, 0, 0.5);
+	display: none;
+	z-index: 2;
+}
+
+.close-btn {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+	z-index: 1;
+}
+
+#modal-toggle:checked ~ .overlay {
+	display: block;
+}
+
+#modal-toggle:checked ~ .modal {
+	display: block;
 }
 
 .section_title {
 	margin-top: 10px;
-    font-size: 18px;
-    font-weight: 700;
+	font-size: 18px;
+	font-weight: 700;
 	color: #fff;
+	display: block;
 }
 
 .main_page {
@@ -296,19 +341,16 @@ body {
 }
 
 .matches_section {
-    height: 220px;
-    display: flex;
-    gap: 112px;
-    align-items: center;
-    justify-content: space-between; /* Равномерно распределяем элементы */
-    overflow-x: hidden;
-    background-color: #121f38;
-    padding: 32px 60px; /* Добавляем отступы по бокам */
-    scroll-snap-type: x mandatory;
+	height: 220px;
+	display: flex;
+	gap: 112px;
+	align-items: center;
+	justify-content: space-between; /* Равномерно распределяем элементы */
+	overflow-x: hidden;
+	background-color: #121f38;
+	padding: 32px 60px; /* Добавляем отступы по бокам */
+	scroll-snap-type: x mandatory;
 }
-
-
-
 
 .past_matches_container {
 	display: flex;
@@ -406,7 +448,7 @@ body {
 	align-items: center;
 }
 
-.news_section_navigation_item_all{
+.news_section_navigation_item_all {
 	height: 42px;
 	background: #ffffff;
 	border-radius: 5px;
@@ -423,7 +465,7 @@ body {
 	padding: 0 23px;
 	white-space: nowrap;
 }
-.news_section_navigation_link_all{
+.news_section_navigation_link_all {
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: 500;
@@ -525,7 +567,6 @@ body {
 	border-radius: 10px;
 }
 
-
 .index_page_tv_section {
 	display: flex;
 	gap: 20px;
@@ -612,4 +653,41 @@ body {
 	border: 0;
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+}
+
+.qr_title {
+	margin-top: 40px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+
+.qr_text {
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(255, 255, 255, 0.8);
+	text-align: center;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.qr_container {
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.qr_img {
+	width: 309px;
+	height: 314px;
+}
+
+.qr_info {
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(255, 255, 255, 0.8);
+	text-align: center;
+	margin-top: 60px;
+	text-align: center;
 }

@@ -1,0 +1,141 @@
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/8954f2b56c8e8ad57b0763ea6ee0aa29.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/8954f2b56c8e8ad57b0763ea6ee0aa29.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/8954f2b56c8e8ad57b0763ea6ee0aa29.ttf')
+			format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/63105376024a2fbc44ff039a073cb853.ttf')
+			format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/fb1bea81a02964993fa20fa8c7c13ea4.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/fb1bea81a02964993fa20fa8c7c13ea4.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/fb1bea81a02964993fa20fa8c7c13ea4.ttf')
+			format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/bada443c83e47661b69f8a08a19e0af3.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/bada443c83e47661b69f8a08a19e0af3.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/bada443c83e47661b69f8a08a19e0af3.ttf')
+			format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src: local('Museo Sans Cyrl'),
+		url('https://db.onlinewebfonts.com/t/2f1f3feea7d6b09afda02d8a4b54dea1.woff2')
+			format('woff2'),
+		url('https://db.onlinewebfonts.com/t/2f1f3feea7d6b09afda02d8a4b54dea1.woff')
+			format('woff'),
+		url('https://db.onlinewebfonts.com/t/2f1f3feea7d6b09afda02d8a4b54dea1.ttf')
+			format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+* {
+	font-family: 'Museo Sans Cyrl';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f3f3f5;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div {
+	margin: 0 auto;
+	width: 580px;
+	height: 480px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 70px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
+h1 {
+	font-size: 34px;
+	font-weight: 700;
+	color: #322c4d;
+	margin-bottom: 32px;
+}
+
+label {
+	width: 100%;
+}
+
+span {
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgb(35, 35, 35, 0.5);
+	margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	height: 53px;
+	border: 1px solid rgb(35, 35, 35, 0.5);
+	border-radius: 5px;
+	padding: 0 20px;
+}
+
+.password_span {
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	width: 100%;
+}
+
+button {
+	margin-top: 40px;
+	width: 100%;
+	height: 53px;
+	border: none;
+	border-radius: 5px;
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff;
+	background: linear-gradient(90deg, #d30a30, #a71d36);
+}
