@@ -82,6 +82,10 @@ body {
 	background: linear-gradient(#dc052d, 60%, #a11e36);
 }
 
+.match_live_btn{
+	text-decoration: none;
+}
+
 .header_container {
 	margin-bottom: 30px;
 	display: flex;
@@ -336,9 +340,9 @@ body {
 .time_next_match {
 	font-size: 30px;
 	font-weight: 700;
-	color: red;
 	text-align: center;
 	display: block;
+	color: #bbb;
 }
 
 .more_btn_link {
