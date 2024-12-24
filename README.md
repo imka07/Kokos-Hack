@@ -10,7 +10,7 @@
  <br>
     <a href="https://drive.google.com/file/d/1e_gd9qcUw8LgLTeUNEGb4IBEd2sp8s8E/view?usp=sharing"><strong>Презентация »</strong></a>
     <br />
-    <a href="https://hackathon-narton-union.vercel.app/projects"><strong>Попробовать »</strong></a>
+    <a href="https://imka07.github.io/Kokos-Hack/"><strong>Попробовать »</strong></a>
     <br />
 <br>
 <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white">
