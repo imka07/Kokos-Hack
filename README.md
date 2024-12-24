@@ -1,62 +1,59 @@
 <br />
 <div align="center">
-    <img src="FIS Logo (1).svg" alt="Logo" width="80" height="80">
-
-  <h3 align="center">Мисстрой</h3>
-  <h4>MISIS X Narton Union</h4>
-  <p align="center">
-    Информационная система управления проектами в строительстве
-    <br>
-    <a href="https://drive.google.com/file/d/1Tx2Z2h_0RAesdNH7gr8cXL_F_0Zew2su/view?usp=drive_link"><strong>Презентация »</strong></a>
-    <br />
-    <a href="https://hackathon-narton-union.vercel.app/projects"><strong>Попробовать »</strong></a>
-    <br />
-    </p>
+    <img src="media/logo.svg" alt="Logo" width="300" height="80">
+  <h2 align="center">MTC.ИГРЫ</h2>
+  <h3 align="center">MISIS venum</h3>
 </div>
-
-<br>
-
 
 <div align="center">
-    <img src="StackIcons/Nuxt.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Postgres.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Js.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/prisma orm.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Vue.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/TypeScript.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Tailwind.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Figma.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Needle.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Vercel.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Neon.svg" alt="Stack" style="width: 80px; height: auto;">
-    <img src="StackIcons/Unity.svg" alt="Stack" style="width: 80px; height: auto;">
+
+<img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white">
+<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+<img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi">
+<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
+<img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white">
+<img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+
+
 </div>
 
+# 🚀  О Проекте
+Наш сервис представляет собой конструктор тайм-киллер игр, который будет внедрён в корпоративную систему 
+банка для создания игровых механик, направленных на вовлечение пользователей и повышение их лояльности. Этот инструмент позволяет сотрудникам, 
+даже не имеющим технической подготовки, быстро и легко разрабатывать игры, 
+которые впоследствии будут интегрированы в приложение банка.
 
-# Цель проекта 
-Разработать информационную систему управления строительными проектами, которая позволит планировать экономические показатели, сроки производства работ или потребность в трудовых ресурсах, контролировать факт выполненных работ и движения денежных средств по направлениям затраты и поступления, а также корректировать планы с учетом фактической ситуации.
 
-# О Проекте
-МисСтрой — это платформа, названная в честь Миса ван дер Рое, которая олицетворяет простоту в использовании и эффективное планирование с учетом экономических показателей, помогая управлять и контролировать строительные проекты.
 
-## Функционал
+## 📋 Основной функционал 
+- [x] Web приложение
+  - [x] Просмотр готовых конфигураций для игр
+  - [x] Установка текущей конфигурации для конкретной игры 
+  - [x] Редактор игр
+  - [x] Возможность добавлять / удалять / редактировать конфигурации игр
+  - [ ] Возможность добавлять новые игры
+- [x] Игры 
+  - [x] Игры Color Switch
+  - [x] Игра Path of Hero
+- [ ] Система накопления и траты очков
+- [ ] Реферальная система 
+- [ ] Внутриигровой / МТС магазин
 
-- [x] Деплой на сервер
-- [x] Авторизация
-- [x] Регистрация
-- [x] Личный кабинет
-- [x] Главная страница с проектами 
 
-- [x] Фотограметрия  
-  - [x] Просмотр 3D модели объекта (AR)
-  - [x] Создание модели с помощью FPV дрона 
+## 🗨️ Состав команды 
+[Фунг Туан Ань](https://github.com/Himura-777) - **Frontend**
 
-- [ ] Создание нового проекта  
-  - [x] Название
-  - [x] Адрес 
-  - [x] Описание 
-  - [x] Диаграмма Ганта 
-  - [x] Подготовка основания 
-- [ ] Добавление нового плана
-  - [ ] Завершенные планы 
-  - [ ] Метрики с AI  
+[Имран Шокуев](https://github.com/imka07) - **Unity AR Dev**
+
+[Данила Бочаров](https://github.com/Klopi746) - **Unity Dev / Backend**
+
+[Тимофей Костров](https://t.me/timkoskos) - **UI / UX / Frontend**
+
+[Андрей Тычинин](https://t.me/timkoskos) - **UI / UX / Frontend**
