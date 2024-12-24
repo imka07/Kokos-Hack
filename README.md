@@ -52,10 +52,9 @@
 ## 🗨️ Состав команды 
 [Фунг Туан Ань](https://github.com/Himura-777) - **Frontend**
 
-[Имран Шокуев](https://github.com/imka07) - **Unity AR Dev**
+[Имран Шокуев](https://github.com/imka07) - **Unity AR Dev / UI|UX**
 
-[Станислав Кулыгин](https://github.com/Klopi746) - **Unity Dev / Backend**
+[Станислав Кулыгин](https://github.com/Klopi746) - **Аналитик**
 
-[Абаноков Ильнур](https://t.me/timkoskos) - **UI / UX / Frontend**
+[Абаноков Ильнур](https://t.me/timkoskos) - **Backend / Devops**
 
-[Андрей Тычинин](https://t.me/timkoskos) - **UI / UX / Frontend**
